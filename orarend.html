@@ -1,102 +1,108 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Órarend</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <nav>
-        <a href="https://dav4eeed.github.io/kollazs/">HOME</a> |
-        <a href="https://dav4eeed.github.io/kollazs/keplink.html">1.feladat</a> |
-        <a href="https://dav4eeed.github.io/kollazs/listak.html">2.feladat</a> |
-        <a style="background-color: red; text-decoration: none;" href="https://dav4eeed.github.io/kollazs/orarend.html">3.feladat</a> |
-      </nav>
-    
-   <table border="2px">
-       <tr style="background-color: springgreen;">
-           <th style="background-color: springgreen;">Órarend</th>
-           <th>Hétfő</th>
-           <th>Kedd</th>
-           <th>Szerda</th>
-           <th>Csütörtök</th>
-           <th>Péntek</th>
-       </tr>
-       <tr style="background-color: yellowgreen;">
-           <td style="background-color: springgreen;">0.óra</td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-       </tr>
-       <tr style="background-color: yellow;">
-           <td style="background-color: springgreen;">1.óra</td>
-           <td></td>
-           <td>Matematika</td>
-           <td>Magyar nyelv és irod</td>
-           <td>Angol nyelv</td>
-           <td>Matematika</td>
-       </tr>
-       <tr style="background-color: yellowgreen;">
-           <td style="background-color: springgreen;">2.óra</td>
-           <td>Programozási Alapok</td>
-           <td>Angol nyelv</td>
-           <td>Komplex természettud</td>
-           <td>Komplex természettud</td>
-           <td>Történelem</td>
-       </tr>
-       <tr style="background-color: yellow;">
-           <td style="background-color: springgreen;">3.óra</td>
-           <td>Programozási Alapok</td>
-           <td>Magyar nyelv és irod</td>
-           <td>Matematika</td>
-           <td>Történelem</td>
-           <td>Matematika</td>
-       </tr>
-       <tr style="background-color: yellowgreen;">
-           <td style="background-color: springgreen;">4.óra</td>
-           <td>Munkavállalói ismeret</td>
-           <td>Testnevelés</td>
-           <td>Történelem</td>
-           <td>Testnevelés</td>
-           <td>Angol nyelv</td>
-       </tr>
-       <tr style="background-color: yellow;">
-           <td style="background-color: springgreen;">5.óra</td>
-           <td>Komplex természettud</td>
-           <td>Magyar nyelv és irod</td>
-           <td>IKT projektmunka I.</td>
-           <td>Matematika</td>
-           <td>Magyar nyelv és irod</td>
-       </tr>
-       <tr style="background-color: yellowgreen;">
-           <td style="background-color: springgreen;">6.óra</td>
-           <td>Angol nyelv</td>
-           <td>Osztályfőnöki</td>
-           <td>Informatika és távk</td>
-           <td></td>
-           <td>Magyar nyelv és irod</td>
-       </tr>
-       <tr style="background-color: yellow;">
-           <td style="background-color: springgreen;">7.óra</td>
-           <td>Testnevelés</td>
-           <td>Digitális kultúra</td>
-           <td>Informatika és távk</td>
-           <td></td>
-           <td></td>
-       </tr>
-       <tr style="background-color: yellowgreen;">
-           <td style="background-color: springgreen;">8.óra</td>
-           <td>Testnevelés</td>
-           <td>Digitális kultúra</td>
-           <td>Informatika és távk</td>
-           <td></td>
-           <td></td>
-       </tr>
-   </table>
+    <div class="sidebar">
+        <a href="https://dav4eeed.github.io/kollazs/">HOME</a>
+        <a href="https://dav4eeed.github.io/kollazs/keplink.html">1.feladat</a>
+        <a href="https://dav4eeed.github.io/kollazs/listak.html">2.feladat</a>
+        <a class="active" href="https://dav4eeed.github.io/kollazs/orarend.html">3.feladat</a>
+    </div>
+
+    <div class="content">
+        <table border="2px">
+            <tr style="background-color: springgreen;">
+                <th style="background-color: springgreen;">Órarend</th>
+                <th>Hétfő</th>
+                <th>Kedd</th>
+                <th>Szerda</th>
+                <th>Csütörtök</th>
+                <th>Péntek</th>
+            </tr>
+            <tr style="background-color: yellowgreen;">
+                <td style="background-color: springgreen;">0.óra</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr style="background-color: yellow;">
+                <td style="background-color: springgreen;">1.óra</td>
+                <td></td>
+                <td>Matematika</td>
+                <td>Magyar nyelv és irod</td>
+                <td>Angol nyelv</td>
+                <td>Matematika</td>
+            </tr>
+            <tr style="background-color: yellowgreen;">
+                <td style="background-color: springgreen;">2.óra</td>
+                <td>Programozási Alapok</td>
+                <td>Angol nyelv</td>
+                <td>Komplex természettud</td>
+                <td>Komplex természettud</td>
+                <td>Történelem</td>
+            </tr>
+            <tr style="background-color: yellow;">
+                <td style="background-color: springgreen;">3.óra</td>
+                <td>Programozási Alapok</td>
+                <td>Magyar nyelv és irod</td>
+                <td>Matematika</td>
+                <td>Történelem</td>
+                <td>Matematika</td>
+            </tr>
+            <tr style="background-color: yellowgreen;">
+                <td style="background-color: springgreen;">4.óra</td>
+                <td>Munkavállalói ismeret</td>
+                <td>Testnevelés</td>
+                <td>Történelem</td>
+                <td>Testnevelés</td>
+                <td>Angol nyelv</td>
+            </tr>
+            <tr style="background-color: yellow;">
+                <td style="background-color: springgreen;">5.óra</td>
+                <td>Komplex természettud</td>
+                <td>Magyar nyelv és irod</td>
+                <td>IKT projektmunka I.</td>
+                <td>Matematika</td>
+                <td>Magyar nyelv és irod</td>
+            </tr>
+            <tr style="background-color: yellowgreen;">
+                <td style="background-color: springgreen;">6.óra</td>
+                <td>Angol nyelv</td>
+                <td>Osztályfőnöki</td>
+                <td>Informatika és távk</td>
+                <td></td>
+                <td>Magyar nyelv és irod</td>
+            </tr>
+            <tr style="background-color: yellow;">
+                <td style="background-color: springgreen;">7.óra</td>
+                <td>Testnevelés</td>
+                <td>Digitális kultúra</td>
+                <td>Informatika és távk</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr style="background-color: yellowgreen;">
+                <td style="background-color: springgreen;">8.óra</td>
+                <td>Testnevelés</td>
+                <td>Digitális kultúra</td>
+                <td>Informatika és távk</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
 
 </body>
+
 </html>
