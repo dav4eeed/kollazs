@@ -7,6 +7,16 @@ body {
     margin: 0;
     font-family: "Lato", sans-serif;
   }
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: yellow;
+   color: white;
+   text-align: center;
+}
   
   .sidebar {
     margin: 0;
