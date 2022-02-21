@@ -45,24 +45,26 @@
       <input type="text" name="nev">
       <p><label>Telefonszám:</label></p>
       <input type="text">
+      <p><label>Szállítási cím:</label></p>
+      <input type="text">
       </fieldset>
 
       <fieldset>
         <legend>Pizza mérete</legend>
         <p><label><input type="radio" name="meret" value="kicsi">kicsi</label></p>
         <p><label><input type="radio" name="meret" value="nagy">nagy</label></p>
+        <p><label><input type="radio" name="meret" value="csaladi">családi</label></p>
     </fieldset>
     <fieldset>
         <legend>Feltétek</legend>
         <p><label><input type="checkbox" name="feltet1" value="sonka">sonka</label></p>
         <p><label><input type="checkbox" name="feltet2" value="sajt">sajt</label></p>
-        <p><label><input type="checkbox" name="feltet3" value="gomba">gomba</label></p>
     </fieldset>
     <fieldset>
         <legend>Végezetül</legend>
         <p><label>mennyiség: <input type="number" name="mennyiseg"> db</label></p>
         <p><label>egyéb kívánságok: <textarea name="egyeb"></textarea></label></p>
-        <p><label>Kért szállítási idő: <input type="time" name="kiszallitas"></label></p>
+        <p><label>Kívánt szállítás: <input type="time" name="kiszallitas"></label></p>
         <br>
         <input type="reset" name="visszaallitas">
         <input type="submit" name="kuldes">
